@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+
+<body>
+    <button>press me</button>
+    <script>
+        console.log(23 + 97);
+        console.log(32 + 917);
+        console.log(456 + 234);
+        console.log(231 + 9237);
+        console.log(623 + 947);
+        console.log(243 + 927);
+        console.log(33 + 67);
+        console.log((4 + 6 + 9) / 77);
+
+        let a = 10;
+        let b = 7 * a;
+        const MAX = 57;
+        let actual = MAX - 13;
+        let percentage = actual / MAX;
+        let name = 'Jamilla';
+        let bigmouth = 'i\'ve no right to take my place';
+        console.log(9 * a);
+        console.log(b);
+        console.log(percentage);
+        console.log(1 / 0);
+        console.log(`Hello,agent${23+24}`);
+        typeof(actual);
+        console.log(typeof(true));
+        console.log(bigmouth);
+    </script>
+    <script>
+        let one = "BIG TEAM ";
+        let two = " what a time to  be alive ";
+        let join = one + two;
+        let multiple = one + two + one + two;
+        console.log(join);
+        console.log(multiple);
+        console.log('Front' + 242);
+    </script>
+    <script>
+        const button = document.querySelector('button');
+        button.onclick = function() {
+            let name = prompt('What is your name');
+            alert('hello ,' + name + ' , nice to meet you');
+        }
+    </script>
+    <script>
+        let myDate = "20" + '57';
+        let myString = "123";
+        let myNumber = Number(myString);
+        let myNum2 = 123;
+        let myString2 = myNum2.toString();
+        typeof(myString2);
+        typeof(myNuber);
+        typeof(myDate);
+        console.log(typeof(myDate));
+        console.log(typeof(myNumber));
+        console.log(typeof(myString2));
+    </script>
+    <script>
+        let score = 9.789;
+        let highScore = 10;
+        let song = 'Motley crew';
+        let artist = 'Eminem';
+        let output = `I like the song "${song}".I gave it a score of ${score/highScore*100}%`;
+        let output2 = `I like the artist "${ artist }".
+I gave him a score of ${ score/highScore * 100 }%.`;
+        console.log(output);
+        console.log(output2);
+    </script>
+    <script>
+        let examscore = 70;
+        let highexamscore = 70;
+        let examreport = `you scored ${examscore}/${highexamscore} (${Math.round(examscore/highexamscore*100)}%).${examscore>=28? 'well done you passed':'That\'s tough buddy you have to try again'}`;
+        console.log(examreport);
+    </script>
+    <script>
+        let text = "dhsdgdshudgvdgvduhdugdusfgdgfgidsghdsbbvdgugvkfvkffvhifofihfifhggiofdhdofgigdfihiodihasdshfdidfh";
+        let length = text.length;
+        console.log(length);
+    </script>
+    <script>
+        let string = "Apple,Samsung,Huawei,Oneplus";
+        let part = string.slice(-6, -13);
+        console.log(part);
+    </script>
+    <script>
+        let texxt = "Please visit me at the prison am very lonely";
+        let newText = texxt.replace('the prison am very lonely', 'gaming convenction');
+        console.log(newText);
+    </script>
+    <script>
+        let text1 = "Hello world";
+        let text2 = text1.toUpperCase();
+        console.log(text2);
+    </script>
+    <script>
+        let text3 = "HeLLo WOrld";
+        let text4 = text3.toLowerCase();
+        console.log(text4);
+    </script>
+    <script>
+        let text5 = "Hello";
+        let text6 = " there Jamillah";
+        let tetx7 = text5.concat(text6);
+        console.log(tetx7);
+    </script>
+    <script>
+        let text21 = "     Heroshima nagasaki     ";
+        let text22 = text21.trim();
+        console.log(text22);
+    </script>
+    <script>
+        let word = "Hello New York city it's your neighbourhood spiderman ";
+        let char = word.charAt(10);
+        console.log(char);
+    </script>
+
+</body>
+
+</html>

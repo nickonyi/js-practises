@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conditional statements</title>
+</head>
+
+<body>
+    <script>
+        const hour = new Date().getHours();
+        let greeting;
+        if (hour < 11) {
+            greeting = 'Good morning';
+        } else {
+            greeting = 'Good afternoon';
+        }
+        console.log(greeting);
+    </script>
+    <script>
+        const time = new Date().getHours();
+        let greetings;
+        if (time < 10) {
+            greetings = 'Good morning';
+        } else if (time < 10) {
+            greetings = 'Good afternoon';
+        } else {
+            greetings = 'Good evening';
+        }
+        console.log(greetings);
+    </script>
+    <script>
+        if (1 || 0) {
+            console.log('truthfully');
+        }
+    </script>
+    <script>
+        let hours = 8;
+        if (hours < 9 || hours > 17) {
+            console.log("it's not business hours");
+        }
+    </script>
+    <script>
+        let times = 12;
+        let isweekend = true;
+        if (times < 9 || times > 17 || isweekend) {
+            console.log("office is closed");
+        }
+    </script>
+    <script>
+        let firstname = "";
+        let lastname = "";
+        let nickname = "";
+        console.log(firstname || lastname || nickname || "anonymous");
+    </script>
+    <script>
+        let hr = 11;
+        let minutes = 51;
+        if (hr == 11 && minutes == 50) {
+            console.log("the time is 11:50");
+        }
+    </script>
+    <script>
+        let age = 14;
+        if (age >= 14 && age <= 90) {
+            console.log("you are of the right age");
+        }
+    </script>
+</body>
+
+</html>
